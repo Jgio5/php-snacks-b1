@@ -44,10 +44,8 @@
     ];
 
     for ($i = 0; $i < count($matches); $i++) {
-        echo ("<p>".$matches[$i]["firstTeam"]." - ");
-        echo ($matches[$i]["secondTeam"]." | ");
-        echo ($matches[$i]["firstTeamPt"]."-");
-        echo ($matches[$i]["secondTeamPt"]."</p>");
+        echo ("<p>".$matches[$i]["firstTeam"]." - " .$matches[$i]["secondTeam"]." | ");
+        echo ($matches[$i]["firstTeamPt"]."-" .$matches[$i]["secondTeamPt"]."</p>");
     };
     
 ?>

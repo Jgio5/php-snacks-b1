@@ -20,6 +20,9 @@
                 echo '<h1>' . 'Accesso negato' . '</h1>';
             }
         }
+        else {
+            echo '<h1>' . 'Inserire URL corretta' . '</h1>';
+        }
     ?>
 
 </body>
